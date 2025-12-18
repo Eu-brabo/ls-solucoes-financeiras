@@ -1,0 +1,8 @@
+
+{
+  "name": "LS Soluções Financeiras",
+  "description": "Plataforma profissional de serviços financeiros e antecipação de recebíveis, com atendimento via IA.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

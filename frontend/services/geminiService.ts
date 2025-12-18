@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { FULL_COMPANY_NAME, SERVICES, EMAIL, ADDRESS, PHONE } from "../../constants";
+import { FULL_COMPANY_NAME, SERVICES, EMAIL, ADDRESS, PHONE } from "../constants";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 

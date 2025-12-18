@@ -59,5 +59,5 @@ res.status(500).json({ error: 'Erro ao enviar e-mail' });
 
 
 app.listen(3001, () => {
-console.log('🚀 Backend rodando em http://localhost:3001');
+console.log('🚀 Backend rodando em https://ls-backend-jzhi.onrender.com');
 });

@@ -19,7 +19,7 @@ const BookingForm: React.FC = () => {
   setLoading(true);
 
   try {
-    const response = await fetch("http://localhost:3001/send-email", {
+    const response = await fetch("https://ls-backend-jzhi.onrender.com/booking", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

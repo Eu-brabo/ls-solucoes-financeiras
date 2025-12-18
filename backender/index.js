@@ -5,7 +5,7 @@ import 'dotenv/config';
 
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: 'lsnegocios.netlify.app' }));
 app.use(express.json());
 
 

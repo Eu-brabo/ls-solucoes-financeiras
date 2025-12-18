@@ -52,12 +52,12 @@ html: `
 
 res.status(200).json({ success: true });
 } catch (err) {
-console.error(err);
-res.status(500).json({ error: 'Erro ao enviar e-mail' });
+  console.error("Erro Nodemailer:", err); // mostra o erro completo no console do Render
+  res.status(500).json({ error: err.message }); // mostra a mensagem real no Postman
 }
 });
 
 
 app.listen(3001, () => {
-console.log('🚀 Backend rodando em https://ls-backend-jzhi.onrender.com');
+console.log('🚀 Backend rodando em https://ls-solucoes-financeiras.onrender.com');
 });
